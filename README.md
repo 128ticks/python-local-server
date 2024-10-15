@@ -16,9 +16,12 @@ So easy to use!
 
    ```bash
    python serverforfiles.py
+   ```
 
-   This will start the server, making it available at the following URL:
-   http://<your-local-ip>:8000/
+This will start the server, making it available at the following URL:
+   ```bash
+   http://<your-local-ip>:8000/ bash
+   ```
 
 Replace <your-local-ip> with your actual local IP address (e.g., 192.168.1.x). You can check your local IP address using ipconfig (Windows) or ifconfig (Linux/Mac) in your terminal.
 
