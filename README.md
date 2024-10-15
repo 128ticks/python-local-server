@@ -1,6 +1,10 @@
 # python-local-server
 Python Local Server to upload and download files from the phone!
 
+ ## Necessary dependencies:
+ ```bash
+ pip install flask
+  ```
 
 So easy to use!
 
