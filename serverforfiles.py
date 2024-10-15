@@ -5,7 +5,7 @@ from flask import Flask, request, redirect, send_from_directory, render_template
 import os
 
 app = Flask(__name__)
-CARPETA_DESCARGAS = r'C:\EJEMPLO'  # Usa la ruta que has creado
+CARPETA_DESCARGAS = r'C:\EXAMPLE'  # Usa la ruta que has creado
 
 if not os.path.exists(CARPETA_DESCARGAS):
     os.makedirs(CARPETA_DESCARGAS)
